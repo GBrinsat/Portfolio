@@ -82,13 +82,6 @@ body {
   margin: 0;
 }
 
-/* .site-frame {
-  border: 3px #313131;
-  background-color: red;
-  margin-left: 20px;
-  margin-right: 20px;
-} */
-
 .page-heading {
   text-align: left;
   margin-left: 50px;
@@ -202,7 +195,7 @@ a {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .about-image {
@@ -220,6 +213,23 @@ a {
 
 .contact-link {
   margin-bottom: 30px;
+}
+
+.language-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.language-link {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 200;
+}
+
+.language-link-active::before {
+  content: "• ";
 }
 
 /* ---- animations ---- */
