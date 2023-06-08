@@ -37,9 +37,9 @@ function About() {
             </span>
           </div>
 
-          <div className="about-container animation-fadein">
-            <img className="about-image" src="/Bewerbungsfoto.jpg" alt="" />
-            <div className="project-text">
+          <div className="container about-container animation-fadein">
+            <img className="col col-md-6 about-image" src="/Bewerbungsfoto.jpg" alt="" />
+            <div className="col col-md-6 project-text">
               <h3 className="project-header">Hey! </h3>
               <p className="text">
                 I am Gerrit, a Fullstack Web Developer with a background in
